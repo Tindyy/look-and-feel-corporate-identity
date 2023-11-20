@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "Halton-regular";
+    src: url(assets/Halton/Halton\ regular.otf) format("opentype");
+  }
+  
+  @font-face {
+    font-family: "Halton-regular-italic";
+    src: url(/assets/Halton/Halton\ regular-italic.otf) format("opentype");
+    font-weight: normal;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: "Halton-bold";
+    src: url(/assets/Halton/Halton\ bold.otf) format("opentype");
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Halton-bold-italic";
+    src: url(/assets/Halton/Halton\ bold-italic.otf) format("opentype");
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: "Halton-light";
+    src: url(/assets/Halton/Halton\ light.otf) format("opentype");
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Halton-light-italic";
+    src: url(assets/Halton/Halton\ light-italic.otf) format("opentype");
+    font-weight: 100;
+    font-style: italic;
+  }
+
+
+:root{
+
+    /*base colors*/
+    --darkmossgreen: rgb(96, 108, 55);
+    --cornsilk: rgb(254, 250, 225);
+    --pakistangreen:rgb(39, 53, 24);
+    --earthyellow: rgb(221, 162, 95);
+    --tigerseye:rgb(188, 108, 37);
+    --murrey:rgb(134, 22, 87);
+    --federalblue:rgb(8, 3, 87);
+    --backgroundwhite:rgb(255, 255, 255);
+    /*extra colors*/
+    
+
+    /*Typografie */
+    /*fonts*/
+    --fontheading1: 'halton';
+    --fontheading2: 'halton-regular';
+    --fontparagraph: 'halton-italic';
+    /*font size*/
+    --sizeheading1: 2em;
+    --sizeheading2: 1.5em;
+    --sizeparagraph:.5em;
+
+}
+    
