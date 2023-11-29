@@ -201,8 +201,8 @@ h1{
 }
 
 p{
-    color: navy;
-    font-size: 14px;
+    color: var(--accent-cream);
+    font-size: var(--fontparagraph);
     font-weight: 300;
     line-height: 22px;
     padding: 10px;
@@ -233,7 +233,8 @@ p{
  }
 
  .text-box-info-1 p{
-    color: aliceblue;
+    color: var(--accent-cream);
+    font-size: var(--fontparagraph);
  }
 
  .text-box-info-2{
@@ -253,7 +254,8 @@ p{
  }
 
  .text-box-info-2 p{
-    color: aliceblue;
+    color: var(--accent-cream);
+    font-size: var(--fontparagraph);
  }
 
 
@@ -274,7 +276,8 @@ p{
  }
 
  .text-box-info-3 p{
-    color: aliceblue;
+    color: var(--accent-cream);
+    font-size: var(--fontparagraph);
  }
 
  /*media*/
