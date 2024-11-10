@@ -1,0 +1,74 @@
+.webinars-container{
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping to a new row */
+    justify-content: space-between; /* Space items evenly */
+    margin: 1rem;
+
+}
+
+article.webinar {
+    background: var(--white-color);
+    border-radius: var(--border-radius);
+    padding: 20px;
+    box-shadow: var(--box-shadow);
+    position: relative;
+    max-width: 300px;
+    text-align: center;
+    flex-direction: column;
+}
+
+article.webinar .thumbnail {
+    width: 100%;
+    border-radius: var(--border-radius);
+}
+
+article.webinar h1 {
+    font-family: var(--secondary-font);
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-l);
+    color: var(--text-color);
+    margin: 15px 0;
+}
+
+article.webinar h3 {
+    font-family: var(--secondary-font);
+    font-size: var(--font-size-m);
+    color: var(--text-color);
+}
+
+article.webinar .filter {
+    margin-top: 10px;
+}
+
+article.webinar button a {
+    background-color: var(--button-bg);
+    color: var(--button-text-normal);
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+article.webinar button:hover {
+    background-color: var(--button-hover-bg);
+    color: var(--button-text-active);
+}
+
+article.webinar .watch-link {
+    display: inline-block;
+    margin-top: 10px;
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    font-size: var(--font-size-s);
+}
+
+article.webinar .duration {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: var(--duration-bg-color);
+    color: var(--duration-text-color);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: var(--font-size-s);
+}
