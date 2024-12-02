@@ -23,10 +23,33 @@ https://nawallox.github.io/look-and-feel-styleguide/
 Website:
 
 https://tindyy.github.io/look-and-feel-corporate-identity/
+In this sprint i've learned a few new things about designing such as the Gestalte principles, the use of EM, typography, fonts, etc. 
 
-## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
-For the webinar page i used a new layout with a right and a left column.
+## Styleguide
+
+
+### Stylesheet
+
+https://nawallox.github.io/look-and-feel-styleguide/
+We divided the tasks in the team. 
+
+Tessa: fonts
+For the font I used @fontface to link the font-family.
+
+Nawal: Colors
+
+Riley and Stella: buttons, forms and readme.
+
+## Gestalte Principles
+
+### In class research
+we had to do some research on these principles in class, [Here u can see the notes](https://github.com/Tindyy/look-and-feel-corporate-identity/issues/4#issuecomment-2503310836)
+
+With the new information we had to implement these principles into the design. Here u can see the old design [before](https://github.com/Tindyy/look-and-feel-corporate-identity/issues/4#issue-2690021090) we learned about the gestalte principles.
+
+Here is the [after](https://github.com/Tindyy/look-and-feel-corporate-identity/issues/4#issuecomment-2500442559) and an [explanation](https://github.com/Tindyy/look-and-feel-corporate-identity/issues/4#issuecomment-2503308834)
+
+
 
 ## Bronnen
 
