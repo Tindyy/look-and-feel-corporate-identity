@@ -90,6 +90,12 @@ button:active{
     border: none;
 }
 
+/*h2*/
+.heading{
+    font-family: var(--secondary-font);
+    margin-bottom: 2em;
+}
+
 /*p*/
 
 p{
@@ -109,6 +115,7 @@ p{
     padding: 2rem;
     border-radius: 10px;
     width: 90%;
+    margin-left: 5em;
     
 }
 
@@ -143,6 +150,7 @@ p{
     width: 40%;
 }
 
+
 .background-img img {
     width: 100%;
     border-radius: 10px;
@@ -163,9 +171,11 @@ p{
     width: 90%;
 }
 
+
 .list-container ul {
     list-style-type: none;
-    padding-left: 0;
+    padding-left: 8em;
+    margin-left: 3em;
 }
 
 .list-container ul li {

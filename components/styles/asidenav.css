@@ -1,0 +1,11 @@
+aside{
+    background-color: var(--primary-color);
+    width: 6%;
+    height: 100vw;
+    padding: 2.25em;
+}
+
+aside ul li a{
+    list-style: none;
+    
+}
