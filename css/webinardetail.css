@@ -12,7 +12,7 @@
   
   .grid-layout--column-left { 
     grid-area: grid-layout--column-left;
-    margin: 3em;
+    margin-left: 9em;
     background-color: var(--primary-bg-color);
    }
   
@@ -115,7 +115,7 @@
 
 .speaker-profile-picture{
     border-radius: var(--border-radius);
-    height: 20vw;
+    height: 3vw;
 }
 
 .resource-interaction-button, .pdf-icon{
@@ -150,13 +150,11 @@
   
       .grid-layout--column-left { 
         grid-area: grid-layout--column-left;
-        margin: 1em; /* Adjust margin for mobile */
         background-color: var(--primary-bg-color);
       }
   
       .grid-layout--column-right { 
         grid-area: grid-layout--column-right; 
-        margin: 1em;
       }
   
       /*buttons*/
@@ -176,14 +174,19 @@
   
       .transcript-btn{
         margin: 1em; /* Adjust margins */
-        width: 100%; /* Full width for buttons on mobile */
+        width: 70%; /* Full width for buttons on mobile */
       }
   
       /*webinar*/
       .webinar-video-container{
-        width: 100%;
+        width: 80%;
       }
-  
+
+      iframe{
+        width: 297px;
+        height: 170px;
+      }
+
       .webinar-video-container h1{
         font-size: calc(var(--font-size-l) * 0.9); /* Slightly smaller font size */
       }
@@ -194,25 +197,25 @@
   
       /*description*/
       .description{
-        width: 100%; /* Full width for descriptions */
+        width: 80%; /* Full width for descriptions */
       }
   
       /*Q&A*/
       .q-and-a{
         padding: 1.5em; /* Reduce padding */
-        width: 100%; /* Full width for Q&A */
+        width: 60%; /* Full width for Q&A */
       }
   
       /*transcript*/
       .transcript-container{
-        width: 100%; /* Full width */
+        width: 60%; /* Full width */
         margin-bottom: 2em;
         padding: 1em; /* Adjust padding */
         height: auto; /* Flexible height */
       }
   
       .speaker-profile, .side-container{
-        width: 100%; /* Full width */
+        width: 50%; /* Full width */
         margin-bottom: 1em;
         padding: 1em;
       }
@@ -241,6 +244,11 @@
         border: none;
         border-radius: var(--border-radius);
       }
+
+      .speaker-profile-picture{
+        border-radius: var(--border-radius);
+        height: 20vw;
+    }
   
       .pdf-icon{
         width: 100%; /* Full width */
