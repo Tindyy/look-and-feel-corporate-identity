@@ -49,7 +49,9 @@ With the new information we had to implement these principles into the design. H
 
 Here is the [after](https://github.com/Tindyy/look-and-feel-corporate-identity/issues/4#issuecomment-2500442559) and an [explanation](https://github.com/Tindyy/look-and-feel-corporate-identity/issues/4#issuecomment-2503308834)
 
+## Responsive
 
+In last sprint review Judi gave us the information on most used device in Indonesia wich is mobile. So i made sure to add mediaqueries to make the website responsive. The navbar for example on desktop is a side navbar while the mobile one is on the foot.
 
 ## Bronnen
 
